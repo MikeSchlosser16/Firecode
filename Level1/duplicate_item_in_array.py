@@ -12,10 +12,6 @@ def duplicate_items(list_numbers):
         if myDict[key] > 1:
             nums.append(key)
     return sorted(nums)
-print(duplicate_items([1, 3, 4, 2, 1, 2, 4]))
-print(duplicate_items([]))
-print(duplicate_items([6]))
-print(duplicate_items([-2,3,-2,11]))
 
 ##############################################
 
